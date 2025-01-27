@@ -1,6 +1,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  font-size: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,10 +11,11 @@ body {
   border: 1px solid black;
   background-color: #A52A2A;
   width: 100%;
-  height: 150px;
+  height: 450px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
+  font-size: 175%;
   color: white;
   
 }
@@ -22,15 +24,16 @@ body {
  
   border: 1px solid black;
   background-color: green;
-  width: 60px;
+  width: 80px;
   height: 30px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
+  font-size: 125%;
   color: black;
   position: relative;
-  bottom: 167px;
-  right: -40%;
+  bottom: 477px;
+  right: -37%;
  
 }
 #a2 {
@@ -38,15 +41,16 @@ body {
  
   border: 1px solid black;
   background-color: blue;
-  width: 60px;
+  width: 80px;
   height: 30px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
+  font-size: 125%;
   color: black;
   position: relative;
-  bottom: 167px;
-  right: -40%;
+  bottom: 477px;
+  right: -37%;
  
 }
 #a3 {
@@ -54,15 +58,16 @@ body {
  
   border: 1px solid black;
   background-color: yellow;
-  width: 60px;
+  width: 80px;
   height: 30px;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
+  font-size: 125%;
   color: black;
   position: relative;
-  bottom: 167px;
-  right: -40%;
+  bottom: 477px;
+  right: -37%;
  
 }
 
