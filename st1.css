@@ -102,7 +102,7 @@ body {
 
   /* 3rd 100% */
   .col:nth-child(3) {
-    width: 120%;
+    width: 100%;
     
   }
 }
