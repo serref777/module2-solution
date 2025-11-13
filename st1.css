@@ -6,17 +6,21 @@ body {
   box-sizing: border-box;
 }
 #a {
- 
   border: 1px solid black;
   background-color: #A52A2A;
   width: 100%;
   height: 150px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;            
   font-family: Helvetica;
   color: white;
   padding: 20px;
-  
+
+  display: flex;            
+  justify-content: center;   
+  align-items: center;      
+  gap: 20px;                
+}
+
 }
 #a-container {
   display: flex;
