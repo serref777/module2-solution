@@ -1,81 +1,67 @@
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
+
 #a {
   border: 1px solid black;
   background-color: #A52A2A;
   width: 100%;
-  height: 150px;
-  margin: 0 auto;
+  padding: 20px;
   font-family: Helvetica;
   color: white;
-  padding: 20px;
-
-  display: flex;             /* flex внутри красного блока */
-  justify-content: center;   /* центрируем по горизонтали */
-  align-items: center;       /* центрируем по вертикали */
-  gap: 20px;                 /* расстояние между зелёными блоками */
+  display: flex;             
+  justify-content: flex-start;
+  align-items: center;       
+  gap: 10px;                 
 }
+
 
 #a1, #a2, #a3 {
   border: 1px solid black;
   background-color: green;
   width: 50px;
   height: 10px;
-  padding: 20px;
-  color: black;
-  font-family: Helvetica;
-
-  /* убираем position, bottom и right */
+  padding: 0;                
+  margin: 0;                 
 }
+
 
 .row {
   display: flex;
-  flex-wrap: wrap; /* nextline */
-  gap: 20px 
+  flex-wrap: wrap;
 }
 
-
-
- 
-
-
-/* big 992px */
+/* big >= 992px */
 @media (min-width: 992px) {
   .col {
-    flex: 1 1 100%; 
-    
+    float: left;
+    width: 33.33%;
   }
-
- 
 }
 
-/* med 768px - 991px */
+
+
+/* mid 768-991px */
 @media (min-width: 768px) and (max-width: 991px) {
-  /* 1-2 50% */
   .col:nth-child(1),
   .col:nth-child(2) {
     width: 50%;
-    
-    
   }
 
-  /* 3rd 100% */
   .col:nth-child(3) {
     width: 100%;
-    
   }
 }
 
-/* small (< 768px) */
+
+/* small < 768px */
 @media (max-width: 767px) {
   .col {
-    width: 100%; 
+    width: 100%;
   }
 }
-
-
